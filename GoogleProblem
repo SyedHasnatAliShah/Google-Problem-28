@@ -1,0 +1,51 @@
+lst1=["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+k=16
+lst2=[]
+i=0
+for x in range(len(lst1)):
+    if i==0:
+       lst2+=" "+lst1[x]
+    #i+=1
+    #[s + s for s in lst1]
+    #new=lst1[x]+" "+lst1[x+1#lst2.append(new)
+lst3=[]
+lst5=[]
+lst6=[]
+#print("\n",lst2)
+for p in range(len(lst2)):
+    if p<k:
+        lst3+=lst2[p]
+        #ad=lst2
+        #lst3.append(ad)
+    elif p>=16 and p<16*2:
+        lst5+=lst2[p]
+    elif p>=16*2:
+        lst6+=lst2[p]
+        
+ad3=""  
+for d in lst6:
+    ad3+=d
+print("\n",lst3)
+print("\n",lst5)
+print("\n",lst6)
+lst4=[]
+ad=''
+ad2=''
+
+for s in range(16):
+    ad+=lst3[s]
+for s in range(16):
+    ad2+=lst5[s]
+#for s in range(16):
+    #ad3+=lst6[s]
+lst4.append(ad)
+lst4.append(ad2)
+lst4.append(ad3)
+    
+    
+print(ad)
+print(ad2)
+print(ad3)
+print("\n",lst4)
+    
+
